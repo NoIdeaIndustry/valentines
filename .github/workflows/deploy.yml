@@ -21,7 +21,7 @@ jobs:
       
       - run: flutter clean
       - run: flutter pub get
-      - run: flutter build web --release --base-href "/Valentines/"
+      - run: flutter build web --release
 
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v1

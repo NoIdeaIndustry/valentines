@@ -96,13 +96,13 @@ class _HomePageState extends State<HomePage> {
               _buildChoiceButton(
                 AnswerType.kYes,
                 50 + delta,
-                w: 45 + delta,
+                w: 65 + delta,
               ),
               const SizedBox(height: 10),
               _buildChoiceButton(
                 AnswerType.kNo,
                 50,
-                w: value <= 0 ? 45 : AnswerType.kNo.label.length * 15,
+                w: value <= 0 ? 65 : AnswerType.kNo.label.length * 16,
               ),
             ],
           );
@@ -154,7 +154,7 @@ class _HomePageState extends State<HomePage> {
     return GoogleFonts.poppins(
       color: color,
       fontWeight: FontWeight.bold,
-      fontSize: 24,
+      fontSize: 22,
     );
   }
 }

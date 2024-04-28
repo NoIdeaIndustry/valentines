@@ -75,6 +75,7 @@ class _HomePageState extends State<HomePage> {
       Text(
         'Will you be my Valentine?',
         style: _buildStyle(),
+        textAlign: TextAlign.center,
       ),
       const SizedBox(height: 10),
       ValueListenableBuilder(
